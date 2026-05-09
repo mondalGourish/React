@@ -2,6 +2,7 @@ import './App.css';
 import Counter from './Counter';
 import CounterUseState from './CounterUseState';
 import LikeButton from './LikeButton';
+import LudoGame from './LudoGame';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <br></br>
     <p>Like Button</p>
     <LikeButton/>
+    <LudoGame/>
     </>
   )
 }
